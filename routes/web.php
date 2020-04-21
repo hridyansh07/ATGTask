@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/t','ATGController@store');
-Route::app.get('/', function(req, res){
-    res.redirect('/todo');
-});
+
